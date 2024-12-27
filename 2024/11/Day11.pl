@@ -5,11 +5,11 @@ use warnings;
 
 my @stones;
 
-open(FILE, '<', 'input.txt');
-my $line = <FILE>;
-chomp($line);
+open my $file, '<', 'input.txt';
+my $line = <$file>;
+chomp $line;
 @stones = split(/ /, $line);
-close(FILE);
+close $file;
 
 sub blink {
 	my @newStones;

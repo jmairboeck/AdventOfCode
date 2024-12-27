@@ -7,8 +7,8 @@ my $sumall = 0;
 my $sumenabled = 0;
 my $enable = 1;
 
-open(FILE, '<', 'input.txt');
-while(<FILE>) {
+open my $file, '<', 'input.txt';
+while(<$file>) {
 	while(/(?<mul>mul\((?<arg1>\d+),(?<arg2>\d+)\))|(?<do>do\(\))|(?<dont>don't\(\))/g) {
 		if ($+{mul}) {
 			$sumall += $+{arg1} * $+{arg2};
@@ -18,7 +18,7 @@ while(<FILE>) {
 		$enable = 0 if $+{dont};
 	}
 }
-close(FILE);
+close $file;
 
 print $sumall, "\n";
 print $sumenabled, "\n";
