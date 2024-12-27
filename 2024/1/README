@@ -1,0 +1,3 @@
+input.txt is loaded into columns A and B of the spreadsheet via an external reference. (Thus make sure to enable loading of external references when opening the file.)
+
+The solutions are are at the bottom of column E (part 1) and F (part 2) respectively.

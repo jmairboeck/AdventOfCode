@@ -1,0 +1,5 @@
+In general: 
+ * Solution programs read the input from the file `input.txt` and prints the solutions to both parts on two separate lines.
+ * There is no build system. Compilation is usually a simple compiler invocation (where applicable).
+
+Exceptions to these rules are mentioned in a puzzle-specific README file.
