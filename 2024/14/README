@@ -1,0 +1,4 @@
+This uses System.Drawing. Make sure to add the reference when compiling the program.
+
+E.g.:
+mcs -r:System.Drawing Day14.cs
