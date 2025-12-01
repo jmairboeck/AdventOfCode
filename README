@@ -1,5 +1,6 @@
 In general: 
  * Solution programs read the input from the file `input.txt` and prints the solutions to both parts on two separate lines.
  * There is no build system. Compilation is usually a simple compiler invocation (where applicable).
+   * C# based solutions should be buildable using `csc` (on Windows .NET Framework), `mcs` (using mono) or `dotnet build` (as .NET 10 file based app).
 
 Exceptions to these rules are mentioned in a puzzle-specific README file.
