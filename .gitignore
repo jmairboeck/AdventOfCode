@@ -1,2 +1,8 @@
 input.txt
 *.exe
+*.dll
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+Day?
+Day??
