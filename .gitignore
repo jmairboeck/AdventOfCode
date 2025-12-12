@@ -2,6 +2,7 @@ input.txt
 *.exe
 *.dll
 *.pdb
+*.obj
 *.deps.json
 *.runtimeconfig.json
 Day?
