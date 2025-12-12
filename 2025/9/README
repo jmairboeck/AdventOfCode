@@ -1,0 +1,6 @@
+This uses System.Drawing. Make sure to add the reference when compiling the program, if needed.
+
+E.g.:
+mcs -r:System.Drawing Day9.cs
+
+The solution for part 2 is relatively inefficient.

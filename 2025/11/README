@@ -1,0 +1,6 @@
+When compiling this with GCC (g++), you can use -Wno-multichar to suppress warnings because this uses multi-char literals (deliberately).
+
+E.g.:
+g++ -o Day11 -Wno-multichar Day11.cpp
+
+Or use Haiku, where gcc does this by default.

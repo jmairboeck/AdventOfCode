@@ -1,0 +1,6 @@
+This uses System.Numerics. Make sure to add the reference when compiling the program, if needed.
+
+An unused variable warning may occur because of value tuple decomposition.
+
+E.g.:
+mcs -r:System.Numerics -nowarn:219 Day8.cs
